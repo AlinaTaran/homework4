@@ -7,6 +7,7 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -45,13 +46,14 @@ input[type="radio"].visually-hidden {
 }
 
 .container {
-  width: 1100px;
+  width: 1110px;
   margin: 0 auto;
 }
 
 .main-header {
   padding: 36px 0 90px 0;
 }
+
 .logo {
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 300;
@@ -68,7 +70,6 @@ input[type="radio"].visually-hidden {
 }
 
 .menu {
-    margin: 0;
   font-weight: 900;
   float: right;
   list-style: none;
@@ -109,13 +110,10 @@ input[type="radio"].visually-hidden {
 .title::after {
   content: "";
   display: block;
-  margin: 0 auto;
-  margin-top: 32px;
-  margin-bottom: 92px;
+  margin: 32px auto 92px;
   background-color: #1abc9c;
   width: 164px;
   height: 7px;
-
 }
 
 .catalog-list {
@@ -129,6 +127,7 @@ input[type="radio"].visually-hidden {
   width: 255px;
   background-color: #e9f0fd;
 }
+
 .catalog-list a {
   color: #fff;
   text-decoration: none;
@@ -161,9 +160,9 @@ input[type="radio"].visually-hidden {
   float: right;
 }
 
-.catalog-list:hover .product-description {
-    background: linear-gradient(to right, #1abc9c 78%, #7fd9c7 78%);
-  }
+.catalog-item:hover .product-description {
+  background: linear-gradient(to right, #1abc9c 78%, #7fd9c7 78%);
+}
 .catalog {
   margin-bottom: 90px;
 }
@@ -197,8 +196,7 @@ input[type="radio"].visually-hidden {
   background-color: #4ec6ab;
   width: 136px;
   height: 3px;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin: 10px 0 30px;
 }
 .text-news {
   margin-bottom: 14px;
@@ -220,7 +218,7 @@ input[type="radio"].visually-hidden {
   text-align: center;
   font-family: "OpenSans", "Arial", sans-serif;
   font-weight: 300;
-  color: #fff;
+  color: #ffffff;
   font-size: 16px;
   line-height: 26px;
   border: 0;
